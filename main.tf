@@ -22,7 +22,7 @@ terraform {
   }
 }
 
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_resource_group" "rg2" {
   name     = "myTFResourceGroup9999"
   location = "eastus"
 }
