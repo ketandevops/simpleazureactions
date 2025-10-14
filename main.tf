@@ -23,6 +23,6 @@ terraform {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "myTFResourceGroup99"
+  name     = "myTFResourceGroup9999"
   location = "eastus"
 }
