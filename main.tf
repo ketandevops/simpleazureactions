@@ -15,8 +15,8 @@ provider "azurerm" {
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "TerraformDemo"
-    storage_account_name = "terraformcodeops11"
+    resource_group_name  = "terraformrg"
+    storage_account_name = "terraformbackend1014"
     container_name       = "tfstatefile"
     key                  = "simple.terraform.tfstate"
   }
